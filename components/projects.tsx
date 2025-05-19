@@ -14,6 +14,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { getImagePath } from '@/lib/utils';
 
 type Project = {
   id: number;
@@ -216,7 +217,10 @@ export default function Projects() {
               <Card className='h-full overflow-hidden hover:shadow-lg transition-shadow duration-300 dark:bg-slate-800 border-slate-200 dark:border-slate-700 flex flex-col'>
                 <div className='overflow-hidden h-48'>
                   <img
-                    src={project.image || '/placeholder.svg'}
+                    src={
+                      getImagePath(project.image) ||
+                      getImagePath('/placeholder.svg')
+                    }
                     alt={project.title}
                     className='w-full h-full object-cover transition-transform duration-500 hover:scale-110'
                   />

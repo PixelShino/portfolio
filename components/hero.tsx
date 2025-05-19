@@ -183,6 +183,11 @@ export default function Hero() {
             <Button
               size='lg'
               className='glassmorphism-button bg-blue-600/90 hover:bg-blue-600 text-white backdrop-blur-md'
+              onClick={() => {
+                document
+                  .getElementById('projects')
+                  ?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               {t('viewProjects')}
             </Button>

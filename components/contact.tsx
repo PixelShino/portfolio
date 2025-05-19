@@ -19,6 +19,7 @@ import {
   Plane,
 } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
+import { getImagePath } from '@/lib/utils';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -78,17 +79,31 @@ export default function Contact() {
       link: 'https://github.com/PixelShino',
     },
     {
-      icon: <img src='/hh.png' alt='HeadHunter' className='h-5 w-5' />,
+      icon: (
+        <img
+          src={getImagePath('/hh.png')}
+          alt='HeadHunter'
+          className='h-5 w-5'
+        />
+      ),
       name: 'HeadHunter',
       link: 'https://hh.ru/resume/3fba0842ff08584f020039ed1f5945347a5747',
     },
     {
-      icon: <img src='/tg.png' alt='Telegram' className='h-5 w-5' />,
+      icon: (
+        <img src={getImagePath('/tg.png')} alt='Telegram' className='h-5 w-5' />
+      ),
       name: 'Telegram',
       link: 'https://t.me/PixelShino',
     },
     {
-      icon: <img src='/whats-app.png' alt='WhatsApp' className='h-5 w-5' />,
+      icon: (
+        <img
+          src={getImagePath('/whats-app.png')}
+          alt='WhatsApp'
+          className='h-5 w-5'
+        />
+      ),
       name: 'WhatsApp',
       link: 'https://wa.me/qr/JWST6RALZBOFP1',
     },

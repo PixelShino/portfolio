@@ -2,6 +2,9 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin();
 
+const isProduction = process.env.NODE_ENV === 'production';
+const basePath = isProduction ? '/portfolio' : '';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -14,8 +17,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio/' : '',
+  basePath: basePath,
+  assetPrefix: basePath,
   trailingSlash: true,
 };
 

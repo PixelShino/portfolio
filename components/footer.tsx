@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import { getImagePath } from '@/lib/utils';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -34,21 +35,33 @@ export default function Footer() {
               className='text-slate-600 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400 transition-colors'
               aria-label='Headhunter'
             >
-              <img src='/hh.png' alt='HeadHunter' className='h-5 w-5' />
+              <img
+                src={getImagePath('/hh.png')}
+                alt='HeadHunter'
+                className='h-5 w-5'
+              />
             </a>
             <a
               href='https://t.me/PixelShino'
               className='text-slate-600 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400 transition-colors'
               aria-label='Telegram'
             >
-              <img src='/tg.png' alt='Telegram' className='h-5 w-5' />
+              <img
+                src={getImagePath('/tg.png')}
+                alt='Telegram'
+                className='h-5 w-5'
+              />
             </a>
             <a
               href='https://wa.me/qr/JWST6RALZBOFP1'
               className='text-slate-600 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400 transition-colors'
               aria-label='WatsApp'
             >
-              <img src='/whats-app.png' alt='Telegram' className='h-5 w-5' />
+              <img
+                src={getImagePath('/whats-app.png')}
+                alt='Telegram'
+                className='h-5 w-5'
+              />
             </a>
           </div>
         </div>
