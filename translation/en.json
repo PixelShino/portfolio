@@ -1,0 +1,307 @@
+{
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Frontend ",
+    "title2": "Developer",
+
+    "designer": "Designer",
+    "subtitle": "Crafting beautiful, interactive, and responsive web experiences",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "projects": {
+    "title1": "My ",
+    "title2": "Projects",
+
+    "subtitle": "A collection of my recent work showcasing my skills and expertise in frontend development.",
+    "viewProject": "View Project",
+    "viewCode": "Code",
+    "liveDemo": "Live Demo",
+    "technologies": "Technologies",
+    "description": "Description",
+    "features": "Features",
+    "challenges": "Challenges",
+    "noProjects": "Loading projects...",
+    "filters": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Fullstack"
+    }
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "A comprehensive overview of my technical skills and expertise in frontend development.",
+    "frontend": "Frontend",
+    "styling": "Styling",
+    "stateManagement": "State Management",
+    "backend": "Backend",
+    "graphics": "3D & Graphics",
+    "tools": "Tools",
+    "mobile": "Mobile",
+    "performance": "Performance"
+  },
+  "experience": {
+    "title1": "Work",
+    "title2": "Experience",
+
+    "subtitle": "My professional journey and experience in the field of frontend development.",
+    "present": "Present",
+    "responsibilities": "Responsibilities",
+    "achievements": "Achievements",
+    "education": "Education",
+    "degree": "Degree",
+    "certification": "Certifications",
+    "noExperience": "Loading experience...",
+    "years": "{{years}} years",
+    "months": "{{months}} months",
+    "view": "View"
+  },
+
+  "experience_data": [
+    {
+      "id": 1,
+      "title": "Initial experience in design and web development",
+      "company": "School",
+      "location": "Not specified",
+      "period": "2013 - 2019 (approximately)",
+      "description": "Actively engaged in design. Took first steps in HTML, CSS, and also studied the basics of Pascal and C.",
+      "technologies": ["Design", "HTML", "CSS", "Pascal", "C"]
+    },
+    {
+      "id": 2,
+      "title": "Study of information systems and programming",
+      "company": "University",
+      "location": "Voronezh, Voronezh State University of Engineering Technologies",
+      "period": "2019 - 2023",
+      "description": "Studied business processes, design and life cycles of information systems in the specialty '09.02.07 Information Systems and Programming'. Studied databases (Access, MySQL), PHP, HTML, CSS, JavaScript and phpMyAdmin under the guidance of a teacher. Got acquainted with Git, made pull requests to educational projects. Worked with GitKraken and created a personal GitHub.",
+      "technologies": [
+        "Business processes",
+        "Design",
+        "Information systems life cycles",
+        "Access",
+        "MySQL",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "phpMyAdmin",
+        "Git",
+        "GitKraken"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Design side jobs",
+      "company": "Freelance",
+      "location": "Remote",
+      "period": "2023 - present",
+      "description": "Worked in design, creating product cards for Ozon and Wildberries marketplaces. Worked with Photoshop, Figma and Wix. Continue to study React.",
+      "technologies": [
+        "Photoshop",
+        "Figma",
+        "Wix",
+        "React",
+        "E-commerce design"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Active study of React and educational projects",
+      "company": "Self-study",
+      "location": "Not specified",
+      "period": "2023 - present",
+      "description": "More active study of React. Started developing educational projects.",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Project development"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to discuss potential opportunities? Feel free to reach out!",
+    "contactInfo": "Contact Information",
+    "followMe": "Follow Me",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "required": "Required field",
+      "validEmail": "Please enter a valid email",
+      "minLength": "Must be at least {{length}} characters",
+      "maxLength": "Must be less than {{length}} characters",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred. Please refresh the page.",
+    "readMore": "Read More",
+    "readLess": "Read Less",
+    "viewAll": "View All",
+    "backToTop": "Back to Top",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "systemMode": "System Theme"
+  },
+  "projects_data": [
+    {
+      "title": "React Commerce",
+      "description": "This project is a modern e-commerce web application built with React."
+    },
+    {
+      "title": "Food Site",
+      "description": "This site is on vanilla js for home delivery of ready meals by subscription"
+    },
+    {
+      "title": "3D Portfolio Showcase",
+      "description": "An interactive 3D portfolio website showcasing creative work with WebGL animations and effects."
+    },
+    {
+      "title": "Weather Widget",
+      "description": "A minimalist application for displaying current weather and 3-day forecast."
+    },
+    {
+      "title": "Task List",
+      "description": "A task management application with the ability to set priorities, deadlines, and track overdue tasks."
+    },
+    {
+      "title": "Currency Exchange Calculator",
+      "description": "Interactive web application for currency conversion using current exchange rates."
+    },
+    {
+      "title": "React Optimization",
+      "description": "This project demonstrates advanced React optimization techniques to improve performance in applications with large datasets."
+    },
+    {
+      "title": "RTK User App",
+      "description": "This is a simple user management application built with React and Redux Toolkit."
+    },
+    {
+      "title": "Vote Tracker App",
+      "description": "A simple application for tracking votes for candidates, built using React and useReducer."
+    },
+    {
+      "title": "Data Widget",
+      "description": "An interactive date widget created using the useReducer hook in React."
+    },
+    {
+      "title": "Modal Window",
+      "description": "A simple, reusable React modal window component with customizable content and actions."
+    }
+  ],
+  "projects_discr": {
+    "project1": "This project is a modern e-commerce web application built with React.",
+    "project2": "This site is on vanilla js for home delivery of ready meals by subscription",
+    "project3": "An interactive 3D portfolio website showcasing creative work with WebGL animations and effects.",
+    "project4": "A minimalist application for displaying current weather and 3-day forecast.",
+    "project5": "A task management application with the ability to set priorities, deadlines, and track overdue tasks.",
+    "project6": "Interactive web application for currency conversion using current exchange rates.",
+    "project7": "This project demonstrates advanced React optimization techniques to improve performance in applications with large datasets.",
+    "project8": "This is a simple user management application built with React and Redux Toolkit.",
+    "project9": "A simple application for tracking votes for candidates, built using React and useReducer.",
+    "project10": "An interactive date widget created using the useReducer hook in React.",
+    "project11": "A simple, reusable React modal window component with customizable content and actions."
+  },
+  "skills_data": {
+    "frontend": [
+      { "name": "HTML5", "level": 95 },
+      { "name": "CSS3", "level": 90 },
+      { "name": "JavaScript", "level": 95 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "React", "level": 90 },
+      { "name": "Next.js", "level": 80 }
+    ],
+    "styling": [
+      { "name": "Tailwind CSS", "level": 90 },
+      { "name": "Bootstrap", "level": 85 },
+      { "name": "Radix UI", "level": 80 },
+      { "name": "Shadcn UI", "level": 85 },
+      { "name": "Styled Components", "level": 80 },
+      { "name": "SASS/SCSS", "level": 85 },
+      { "name": "CSS Modules", "level": 85 }
+    ],
+    "stateManagement": [
+      { "name": "Redux", "level": 80 },
+      { "name": "ReduxToolKit", "level": 85 },
+      { "name": "Context API", "level": 90 },
+      { "name": "useReducer", "level": 85 }
+    ],
+    "backend": [
+      { "name": "PHP", "level": 75 },
+      { "name": "REST API", "level": 85 },
+      { "name": "MySql", "level": 75 },
+      { "name": "PhpMyAdmin", "level": 70 }
+    ],
+    "graphics": [
+      { "name": "Three.js", "level": 70 },
+      { "name": "Figma", "level": 85 },
+      { "name": "Wix", "level": 75 },
+      { "name": "Photoshop", "level": 65 }
+    ],
+    "tools": [
+      { "name": "Git", "level": 90 },
+      { "name": "GitHub", "level": 90 },
+      { "name": "GitKraken", "level": 80 },
+      { "name": "VS Code", "level": 95 },
+      { "name": "WebStorm", "level": 85 },
+      { "name": "PhpStorm", "level": 75 },
+      { "name": "Webpack", "level": 80 },
+      { "name": "Vite", "level": 85 }
+    ],
+    "mobile": [
+      { "name": "Mobile-First", "level": 90 },
+      { "name": "Responsive Design", "level": 90 }
+    ],
+    "performance": [
+      { "name": "Lighthouse", "level": 85 },
+      { "name": "Lazy Loading", "level": 90 },
+      { "name": "Optimization", "level": 85 },
+      { "name": "Memo", "level": 80 },
+      { "name": "useMemo", "level": 80 },
+      { "name": "useCallback", "level": 80 }
+    ]
+  },
+  "certification_data": [
+    {
+      "name": "Advanced React Patterns",
+      "issuer": "Frontend Masters",
+      "date": "2022",
+      "link": "#"
+    },
+    {
+      "name": "Professional Frontend Developer",
+      "issuer": "Codecademy",
+      "date": "2021",
+      "link": "#"
+    },
+    {
+      "name": "TypeScript Deep Dive",
+      "issuer": "Udemy",
+      "date": "2021",
+      "link": "#"
+    }
+  ]
+}
